@@ -5,7 +5,7 @@ const myIntents = new IntentsBitField();
 myIntents.add(IntentsBitField.Flags.GuildPresences, IntentsBitField.Flags.GuildMembers);
 const client = new Client({ intents: myIntents });
 const prefix = '-'
-const TOKEN = 'MTAzNzAzMjc0MjkxNjk5NzIyMQ.GKBMfm.84owBAvs5zb4Ne96wlsfVtC8LGr5dGmHXE86uQ';
+const TOKEN = 'MTAzNzAzMjc0MjkxNjk5NzIyMQ.G7QIjA.wtrtFvaYWWC89FH0ntGiX4N3JQwx0gnJKs2ODg';
 const CLIENT_ID = "1037032742916997221";
 const { SlashCommandBuilder } = require('@discordjs/builders');
 
