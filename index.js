@@ -5,11 +5,10 @@ const myIntents = new IntentsBitField();
 myIntents.add(IntentsBitField.Flags.GuildPresences, IntentsBitField.Flags.GuildMembers);
 const client = new Client({ intents: myIntents });
 const prefix = '-'
-const TOKEN = 'MTAzNzAzMjc0MjkxNjk5NzIyMQ.Gt3gaK.JJ7_Eqrd3fjxjgcCoX3c6ZMwuikPkBSBHVGTfY';
+const TOKEN = 'MTAzNzAzMjc0MjkxNjk5NzIyMQ.GKBMfm.84owBAvs5zb4Ne96wlsfVtC8LGr5dGmHXE86uQ';
 const CLIENT_ID = "1037032742916997221";
-
 const { SlashCommandBuilder } = require('@discordjs/builders');
- 
+
 process.on('unhandledRejection', error => {
     console.error('Unhandled promise rejection:', error);
 });
