@@ -1,0 +1,16 @@
+{
+  "name": "nikoo",
+  "version": "1.0.0",
+  "description": "It's a simple discord bot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Rafid",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.5.0",
+    "nodemon": "^2.0.20"
+  }
+}
