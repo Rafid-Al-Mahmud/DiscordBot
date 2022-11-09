@@ -15,7 +15,7 @@ process.on('unhandledRejection', error => {
 });
 
 headers = {"Authorization": "Bot {TOKEN}"};
-result = discord_oauth.discord.get(f"/api/guilds/{server}/roles", headers=headers).content;
+result = discord_oauth.discord.get("/api/guilds/{server}/roles", headers=headers).content;
 data = json.loads(result);
 
 const commands = [
