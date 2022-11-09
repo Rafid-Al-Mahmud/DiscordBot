@@ -9,7 +9,7 @@ const TOKEN = 'MTAzNzAzMjc0MjkxNjk5NzIyMQ.Gt3gaK.JJ7_Eqrd3fjxjgcCoX3c6ZMwuikPkBS
 const CLIENT_ID = "1037032742916997221";
 
 const { SlashCommandBuilder } = require('@discordjs/builders');
-
+ 
 process.on('unhandledRejection', error => {
     console.error('Unhandled promise rejection:', error);
 });
